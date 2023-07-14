@@ -1,0 +1,400 @@
+body {
+    font-family: Nunito, Roboto, system-ui, Tahoma, sans-serif;
+
+}
+
+.g-con {
+    background-color: #ffdf8c;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    margin: 50px 30px 0px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: white;
+    justify-content: space-around;
+    /*text-align: center;*/
+    /*max-width: 1217px;*/
+    border-bottom: 1px solid #f6f6f6;
+    width: unset;
+}
+
+.pizza__image-link {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.pizza__image {
+    width: 100%;
+}
+
+.pizza__name {
+    text-align: center;
+}
+
+.pizza2 {
+    display: flex;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+}
+
+.image_pizza {
+    display: flex;
+    /*margin: 30px 0px;*/
+    flex-wrap: wrap;
+    width: 50px;
+    margin: 8px 0px 0px 25px;
+}
+
+.text-haed {
+    margin: 12px 0px 0px 10px;
+
+}
+
+.text-haed h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.text-haed p {
+    font-weight: inherit;
+    font-size: 14px;
+    color: #7b7b7b;
+}
+
+.pizza {
+    min-height: 500px;
+    width: 25%;
+    margin: 0 20px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.hits img {
+    width: 50px;
+    right: 50px;
+}
+
+.hits {
+    top: 60px;
+    left: 70px;
+    position: relative;
+}
+
+.text-haed h2 {
+    padding: 2px;
+    margin: 12px 0px;
+}
+
+.text-haed p {
+    padding: 4px 2px;
+    margin: 3px 0px;
+}
+
+.input-haed {
+    margin: 30px;
+}
+
+.button--cart {
+    /*border: unset;*/
+    cursor: pointer;
+    border: 1px solid red;
+    border-radius: 33px;
+    background-color: red;
+    text-decoration: unset;
+    padding: 15px 50px;
+    display: flex;
+    margin: 5px 0px 0px;
+}
+
+/*.button--cart:hover:before{*/
+/*    background-color: black;*/
+/*}*/
+.button--cart span {
+    margin: 0px 5px;
+}
+
+.haeder__cart {
+    margin: 60px 50px;
+}
+
+.input-haed input {
+    font-size: 14px;
+    border-radius: 10px;
+    margin: 40px 0px 10px 0px;
+    padding: 12px 70px;
+    border: 1px solid black;
+}
+
+.haeder__cart button {
+    padding: 15px 70px;
+    border-radius: 29px;
+    color: coral;
+    margin: 45px 0px 10px;
+}
+
+.clyki-con {
+    margin: 0px 30px;
+    background-color: white;
+}
+
+.pizza_categories {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 80px 50px;
+    padding: 50px 0px 0px;
+}
+
+.clyks {
+    border: unset;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 40px;
+}
+
+.clyks a:hover {
+    text-decoration: underline;
+    background-color: #f3f3f3;
+}
+
+.clyks a {
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-right: 10px;
+    padding: 13px 30px;
+    transition: background-color .1s ease-in-out;
+    text-decoration: underline;
+    text-decoration: unset;
+}
+
+.clyks a:focus {
+    background-color: #f3f3f3;
+}
+
+.clyki-con select {
+    padding: 6px 33px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.pizza_sh {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.image_pizza1 h3 {
+    justify-content: center;
+    font-style: italic;
+    text-align: center;
+}
+
+.buttons {
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.buttons__button {
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 35px;
+    border: unset;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.buttons__kind,
+.buttons__size {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.buttons__button:focus {
+    background-color: white;
+}
+
+.buttons__button__lets {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.price {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.battons__button__send {
+    width: 150px;
+    height: 50px;
+    display: block;
+    border-radius: 22px;
+    background-color: white;
+    font-size: 18px;
+    color: #a33e19;
+    text-transform: uppercase;
+    border: 1px solid #FE5F25;
+    cursor: pointer;
+}
+
+.battons__button__send:hover {
+    text-decoration: underline;
+    background-color: #FE5F25;
+}
+
+.text_category {
+    margin: 0px 0px 20px 88px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.cart {
+    display: flex;
+    justify-content: space-around;
+}
+.first {
+    display: flex;
+}
+.first_img img{
+    width: 100px;
+    margin: 30px 20px 0px 0px;
+}
+.product_info {
+    font-size: 26px;
+    margin: 0px;
+}
+.btn_click {
+    border: 1px ;
+    border-radius: 5px;
+    width: 9px;
+}
+
+.cart__item-count {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
+}
+.cart__item-price {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.container_body {
+    display: flex;
+    justify-content: space-around;
+   margin: 0px 100px;
+
+}
+.cart__item-remove {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 4%;
+}
+.cart__item-count-minus:disabled {
+    border-color: #787878;
+    opacity: .4;
+}
+.button--outline {
+    background-color: #fff;
+    border-color: #fe5f1e;
+}
+.button--outline, .button--outline span {
+    color: #fe5f1e;
+}
+.cart__bottom-details {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.cart__item-count b {
+    font-size: 32px;
+}
+.cart__bottom-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.cart__bottom-buttons .go-back-btn {
+    align-items: center;
+    border-color: #ddd;
+    display: flex;
+    justify-content: center;
+    width: 210px;
+}
+.button--outline, .button--outline span {
+    color: #fe5f1e;
+}
+
+.button--outline {
+    background-color: #fff;
+    border-color: #fe5f1e;
+}
+.cart__bottom-buttons .go-back-btn img {
+    margin-right: 12px;
+}
+.cart__bottom-buttons .pay-btn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px;
+    width: 210px;
+}
+.button, .button span {
+    color: #fff;
+}
+.button {
+    -webkit-touch-callout: none;
+    background-color: #fe5f1e;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-block;
+    /*min-width: 100px;*/
+    padding: 10px 20px;
+    text-align: center;
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.modal {
+    align-items: center;
+    background-color: rgba(0,0,0,.5);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: scale(0);
+}
+.modal__content {
+    background-color: #fff;
+    border-radius: 15px;
+    max-width: 600px;
+    padding: 40px 20px;
+}
+.btn_admin{
+    font-size: 34px;
+
+}
+
